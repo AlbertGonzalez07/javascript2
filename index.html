@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega2-javascript-AlbertGonzalez</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li> <a href=""></a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>   
+      <h1>Entrega2-javascript-AlbertGonzalez</h1>
+
+    <h2>ingrese contraseña-1234</h2>
+   
+<section class="prestamos">  
+    <div class="card-container">
+       <h3>Prestamo Personal</h3>
+       <div class="text"> 
+        <p> 
+         <li>Acreditacion inmediata.</li>
+         <li>Con un interes del 30%.</li>
+         <li>Calculo de la cuota con interes a abonar.</li>
+         <li>Se debitara la cuota automaticamente a la cuenta elegida.</li>
+        </p>
+       <button onclick="AñadirAlSimulador"> simula tu prestamo</button>
+      </div>
+    </div> 
+   <div class="card-container">
+     <h3>Prestamo Hipotecario</h3>
+       <div class="text"> 
+         <p> 
+          <li>Acreditacion inmediata.</li>
+          <li>Con un interes del 60%.</li>
+          <li>Calculo de la cuota con interes a abonar.</li>
+          <li>Se debitara la cuota automaticamente a la cuenta elegida.</li>
+         </p>
+        <button onclick="AñadirAlSimulador"> simula tu prestamo</button>
+       </div>
+  </div> 
+  <div class="card-container">
+     <h3>Prestamo Automovil</h3>
+     <div class="text"> 
+        <p> 
+         <li>Acreditacion inmediata.</li>
+         <li>Con un interes del 40%.</li>
+         <li>Calculo de la cuota con interes a abonar.</li>
+         <li>Se debitara la cuota automaticamente a la cuenta elegida.</li>
+        </p>
+       <button onclick="AñadirAlSimulador"> simula tu prestamo</button>
+      </div>
+  </div> 
+  <div class="card-container">
+     <h3> Prestamo Electrodomestico</h3>
+     <div class="text"> 
+        <p> 
+         <li>Acreditacion inmediata.</li>
+         <li>Con un interes del 20%.</li>
+         <li>Calculo de la cuota con interes a abonar.</li>
+         <li>Se debitara la cuota automaticamente a la cuenta elegida.</li>
+        </p>
+       <button onclick="AñadirAlSimulador"> simula tu prestamo</button>
+      </div>
+  </div>
+</section>
+
+</main>
+
+<form action="cadastro.php" method="post"></form>
+
+ <p>
+    <label for="datahora">Calendario/ Hora local / </label>
+    <input type="datetime-local" id="datahora" name="datahora">
+
+ </p>
+ <p>
+    <label for="mes">Mes</label>
+    <input type="month" id="mes" name="mes">
+ </p>
+
+ <p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpiar">
+ </p>
+
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

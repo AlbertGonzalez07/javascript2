@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.prestamos{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    justify-content: center;
+    gap: 80px;
+    
+}
+.card-container{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background: linear-gradient(500deg, rgba(211, 222, 212, 0.772), rgb(102, 112, 102));
+    
+}
+
+.text{    
+    justify-content: center;
+    align-items: center;
+    color: rgb(143, 61, 22);
+}
